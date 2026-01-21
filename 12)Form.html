@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            margin: 20px;
+            box-shadow: 0 0 10px black;
+            height: 200px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h3>Input Element with type="text"</h3>
+        <form>
+            <label>
+                <center>Enter text here</center>
+            </label><br>
+            <input type="text" placeholder="Enter text here" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="password"</h3>
+        <form>
+            <input type="password" placeholder="Enter password here" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="email"</h3>
+        <form>
+            <input type="email" value="vishnuthupakulah@gmail.com" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="number"</h3>
+        <form>
+            <input type="number" value="234356928" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="url"</h3>
+        <form>
+            <input type="url" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="search"</h3>
+        <form>
+            <input type="search" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="date"</h3>
+        <form>
+            <input type="date" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="time"</h3>
+        <form>
+            <input type="time" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="datetime-local"</h3>
+        <form>
+            <input type="datetime-local" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="month"</h3>
+        <form>
+            <input type="month" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="week"</h3>
+        <form>
+            <input type="week" />
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div>
+        <h3>Input Element with type="submit"</h3>
+        <form>
+            <input type="submit" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="reset"</h3>
+        <form>
+            <input type="reset" />
+        </form>
+    </div>
+    <div>
+        <h3>Input Element with type="button"</h3>
+        <form>
+            <input type="button" value="Button" />
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div>
+
+        <h3>Input Element with type="file"</h3>
+        <form>
+            <label>
+                <center>Enter the File name</center>
+            </label><br>
+            <input type="file" />
+        </form>
+    </div>
+    <div>
+
+        <h3>File that accepts only images</h3>
+        <form>
+            <input type="file" accept="image/*" multiple />
+        </form>
+    </div>
+    <div>
+
+        <h3>File that accepts Multiple Files</h3>
+        <form>
+            <input type="file" multiple />
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div>
+        <h3>Radio</h3>
+        <form>
+            <input type="radio" name="gender" />Male
+            <input type="radio" name="gender" />Female<br>
+            <input type="radio" name="gender1" />semi-male
+            <input type="radio" name="gender1" />semi-female
+        </form>
+    </div>
+
+
+
+    <div>
+        <h3>Checkbox</h3>
+        <form>
+            <input type="checkbox" name="html" />HTML
+            <input type="checkbox" name="css" />css
+            <input type="checkbox" name="js" />Java Script
+            <input type="checkbox" name="React" />React
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <div>
+        <h3>Auto - complete</h3>
+        <form>
+            <input placeholder="Enter an element" list="list-1" />
+            <datalist id="list-1">
+                <option value="Vishnu"></option>
+                <option value="Vishnu Thupakula"></option>
+                <option value="Vyshnavi"></option>
+                <option value="vyshu"></option>
+                <option value="Vish"></option>
+                <option value="Vishnu Priya"></option>
+                <option value="manu"></option>
+                <option value="Manaswini"></option>
+                <option value="manas"></option>
+            </datalist>
+        </form>
+    </div>
+
+
+
+
+
+    <div>
+        <h3>Select Element</h3>
+        <form>
+            <select multiple>
+                <option>Tirupati</option>
+                <option>Mumbai</option>
+                <option>Delhi</option>
+                <option>Bengaluru</option>
+                <option>Chennai</option>
+                <option>Kolkata</option>
+                <option>Hyderabad</option>
+                <option>Pune</option>
+            </select>
+        </form>
+    </div>
+
+
+
+    <div>
+        <h3>Select Element with (groups)</h3>
+        <form>
+            <select multiple>
+                <optgroup label="Fruits">
+                    <option>Apple</option>
+                    <option>Banana</option>
+                    <option>Mango</option>
+                    <option>Orange</option>
+                    <option>Grapes</option>
+                </optgroup>
+                <optgroup label="Professions">
+                    <option>Engineer</option>
+                    <option>Teacher</option>
+                    <option>Doctor</option>
+                    <option>Farmer</option>
+                    <option>Police Officer</option>
+                </optgroup>
+                <optgroup label="Daily Activities">
+                    <option>Eating</option>
+                    <option>Working</option>
+                    <option>Sleeping</option>
+                    <option>Reading</option>
+                    <option>Walking</option>
+                </optgroup>
+            </select>
+        </form>
+    </div>
+
+
+
+    <div>
+        <h3>Textarea</h3>
+        <form>
+            <textarea rows="5" cols="50" placeholder="Enter something here"></textarea>
+        </form>
+    </div>
+
+
+    <div style="height:500px">
+        <form>
+            <h3>Attributes : maxlength , size</h3>
+            <input maxlength="4" size="10"/>
+            <h3>Attributes : minlength, size</h3>
+            <input minlength="5" size="20"/>
+            <h3>Attributes : requried</h3>
+            <input type="number" required/>
+            <h3>Attributes : Readonly</h3>
+            <input type="number" value="1234" readonly/>
+            <h3>Attributes : Disabled</h3>
+            <input type="number" value="1234" disabled/>    
+            <br>
+            <input style="margin-top:20px ;" type="submit" />
+        </form>
+    </div>
+
+</html>
